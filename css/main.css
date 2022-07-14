@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  color: #222;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+header {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+header ol {
+  font-size: 1.125rem;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: .8rem;
+}
+
+main figure + p {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+blockquote > p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote strong {
+  font-weight: normal;
+}
+
+blockquote footer {
+  font-size: .8rem;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+ul {
+  font-size: .8rem;
+  list-style-type: circle;
+}
+
+dl dt {
+  font-weight: bold;
+}
